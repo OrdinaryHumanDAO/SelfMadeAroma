@@ -1,0 +1,26 @@
+[
+  {
+    "aromaOilName": "アイスニード",
+    "aromaOilImage": "https://upload.wikimedia.org/wikipedia/commons/7/74/Japanese_star_anise_%28Illicium_anisatum%29.jpg",
+    "scientificName": "Pimpinella anisum",
+    "familyName": "セリ科",
+    "precautions": ["あいうえお","かきくけこ"],
+    "type": "精油"
+  },
+  {
+    "aromaOilName": "グレープフルーツ",
+    "aromaOilImage": "https://cdn.pixabay.com/photo/2019/07/20/19/04/grapefruit-4351352_1280.jpg",
+    "scientificName": "Citrus paradisi",
+    "familyName": "ミカン科",
+    "precautions": ["あいうえお","かきくけこ"],
+    "type": "精油"
+  },
+  {
+    "aromaOilName": "ハッカ",
+    "aromaOilImage": "https://live.staticflickr.com/2236/2429467531_102016fd3c_b.jpg",
+    "scientificName": "Mentba aruensis",
+    "familyName": "シソ科",
+    "precautions": ["あいうえお","かきくけこ"],
+    "type": "精油"
+  }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="colorControlNormal">@color/lime_500</item>  <!-- 非フォーカス時 -->
+        <item name="colorControlActivated">@color/lime_500</item>  <!-- フォーカス時 -->
+    </style>
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="colorControlNormal">@color/lime_500</item>  <!-- 非フォーカス時 -->
+        <item name="colorControlActivated">@color/lime_500</item>  <!-- フォーカス時 -->
+    </style>
+</resources>

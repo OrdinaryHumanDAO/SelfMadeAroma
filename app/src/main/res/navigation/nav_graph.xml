@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeViewPagerFragment">
+
+    <fragment
+        android:id="@+id/homeViewPagerFragment"
+        android:name="com.example.selfmadearoma.HomeViewPagerFragment"
+        android:label="HomeViewPagerFragment"
+        tools:layout="@layout/fragment_home_view_pager">
+        <action
+            android:id="@+id/action_homeViewPagerFragment_to_userAromaDetailFragment"
+            app:destination="@id/userAromaDetailFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/aromaCreateFragment"
+        android:name="com.example.selfmadearoma.AromaCreateFragment"
+        android:label="AromaCreateFragment"
+        tools:layout="@layout/fragment_aroma_create">
+        <action
+            android:id="@+id/action_aromaCreateFragment_to_aromaCreateResultFragment"
+            app:destination="@id/aromaCreateResultFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/aromaInfoFragment"
+        android:name="com.example.selfmadearoma.AromaInfoFragment"
+        android:label="AromaInfoFragment"
+        tools:layout="@layout/fragment_aroma_info">
+        <action
+            android:id="@+id/action_aromaInfoFragment_to_aromaInfoDetailFragment"
+            app:destination="@id/aromaInfoDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/aromaCreateResultFragment"
+        android:name="com.example.selfmadearoma.AromaCreateResultFragment"
+        android:label="AromaCreateResultFragment"
+        tools:layout="@layout/fragment_aroma_create_result"/>
+
+    <fragment
+        android:id="@+id/aromaInfoDetailFragment"
+        android:name="com.example.selfmadearoma.AromaInfoDetailFragment"
+        android:label="AromaInfoDetailFragment"
+        tools:layout="@layout/fragment_aroma_info_detail">
+        <argument
+            android:name="aromaOilId"
+            app:argType="integer" />
+        <argument
+            android:name="transition_name_cv"
+            app:argType="string" />
+        <argument
+            android:name="transition_name_iv"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/userAromaEditFragment"
+        android:name="com.example.selfmadearoma.UserAromaEditFragment"
+        android:label="UserAromaEditFragment"
+        tools:layout="@layout/fragment_user_aroma_edit">
+        <argument
+            android:name="myAromaId"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/userAromaDetailFragment"
+        android:name="com.example.selfmadearoma.UserAromaDetailFragment"
+        android:label="UserAromaDetailFragment"
+        tools:layout="@layout/fragment_user_aroma_detail">
+        <action
+            android:id="@+id/action_userAromaDetailFragment_to_userAromaEditFragment"
+            app:destination="@id/userAromaEditFragment" />
+        <argument
+            android:name="myAromaId"
+            app:argType="integer" />
+        <argument
+            android:name="transition_name"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
