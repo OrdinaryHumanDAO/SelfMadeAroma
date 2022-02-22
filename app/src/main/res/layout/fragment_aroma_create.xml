@@ -7,10 +7,10 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.selfmadearoma.viewmodels.AromaCreateViewModel" />
+            type="com.ordinaryhuman.selfmadearoma.viewmodels.AromaCreateViewModel" />
         <variable
             name="handler"
-            type="com.example.selfmadearoma.AromaCreateFragment" />
+            type="com.ordinaryhuman.selfmadearoma.AromaCreateFragment" />
     </data>
 
     <FrameLayout

@@ -5,7 +5,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.selfmadearoma.viewmodels.UserAromaDetailViewModel" />
+            type="com.ordinaryhuman.selfmadearoma.viewmodels.UserAromaDetailViewModel" />
     </data>
 
     <androidx.cardview.widget.CardView

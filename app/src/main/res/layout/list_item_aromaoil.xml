@@ -8,7 +8,7 @@
             type="android.view.View.OnClickListener" />
         <variable
             name="aromaOil"
-            type="com.example.selfmadearoma.data.aromaOil.AromaOil" />
+            type="com.ordinaryhuman.selfmadearoma.data.aromaOil.AromaOil" />
     </data>
     <androidx.cardview.widget.CardView
         android:id="@+id/cvAromaOil"

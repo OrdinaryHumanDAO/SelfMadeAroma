@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeViewPagerFragment"
-        android:name="com.example.selfmadearoma.HomeViewPagerFragment"
+        android:name="com.ordinaryhuman.selfmadearoma.HomeViewPagerFragment"
         android:label="HomeViewPagerFragment"
         tools:layout="@layout/fragment_home_view_pager">
         <action
@@ -17,7 +17,7 @@
 
     <fragment
         android:id="@+id/aromaCreateFragment"
-        android:name="com.example.selfmadearoma.AromaCreateFragment"
+        android:name="com.ordinaryhuman.selfmadearoma.AromaCreateFragment"
         android:label="AromaCreateFragment"
         tools:layout="@layout/fragment_aroma_create">
         <action
@@ -27,7 +27,7 @@
 
     <fragment
         android:id="@+id/aromaInfoFragment"
-        android:name="com.example.selfmadearoma.AromaInfoFragment"
+        android:name="com.ordinaryhuman.selfmadearoma.AromaInfoFragment"
         android:label="AromaInfoFragment"
         tools:layout="@layout/fragment_aroma_info">
         <action
@@ -37,13 +37,13 @@
 
     <fragment
         android:id="@+id/aromaCreateResultFragment"
-        android:name="com.example.selfmadearoma.AromaCreateResultFragment"
+        android:name="com.ordinaryhuman.selfmadearoma.AromaCreateResultFragment"
         android:label="AromaCreateResultFragment"
         tools:layout="@layout/fragment_aroma_create_result"/>
 
     <fragment
         android:id="@+id/aromaInfoDetailFragment"
-        android:name="com.example.selfmadearoma.AromaInfoDetailFragment"
+        android:name="com.ordinaryhuman.selfmadearoma.AromaInfoDetailFragment"
         android:label="AromaInfoDetailFragment"
         tools:layout="@layout/fragment_aroma_info_detail">
         <argument
@@ -59,7 +59,7 @@
 
     <fragment
         android:id="@+id/userAromaEditFragment"
-        android:name="com.example.selfmadearoma.UserAromaEditFragment"
+        android:name="com.ordinaryhuman.selfmadearoma.UserAromaEditFragment"
         android:label="UserAromaEditFragment"
         tools:layout="@layout/fragment_user_aroma_edit">
         <argument
@@ -69,7 +69,7 @@
 
     <fragment
         android:id="@+id/userAromaDetailFragment"
-        android:name="com.example.selfmadearoma.UserAromaDetailFragment"
+        android:name="com.ordinaryhuman.selfmadearoma.UserAromaDetailFragment"
         android:label="UserAromaDetailFragment"
         tools:layout="@layout/fragment_user_aroma_detail">
         <action

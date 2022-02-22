@@ -9,7 +9,7 @@
             type="android.view.View.OnClickListener"/>
         <variable
             name="myAroma"
-            type="com.example.selfmadearoma.data.myArom.MyAroma" />
+            type="com.ordinaryhuman.selfmadearoma.data.myArom.MyAroma" />
     </data>
 
     <androidx.cardview.widget.CardView

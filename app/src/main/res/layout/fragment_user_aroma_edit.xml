@@ -7,10 +7,10 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.selfmadearoma.viewmodels.UserAromaEditViewModel" />
+            type="com.ordinaryhuman.selfmadearoma.viewmodels.UserAromaEditViewModel" />
         <variable
             name="handler"
-            type="com.example.selfmadearoma.UserAromaEditFragment" />
+            type="com.ordinaryhuman.selfmadearoma.UserAromaEditFragment" />
     </data>
 
     <FrameLayout
