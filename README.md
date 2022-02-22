@@ -3,7 +3,7 @@ SelfMadeAromaアプリは自分が作ったアロマをスマホ内に保存で�
 その他の機能としてアロマを作るうえで必要な精油の情報(柑橘系などの系統や揮発度など)をまとめたリストを閲覧することができます。
 
 ## スクリーンショット
-
+![selfMadeAromaScreenshots](https://user-images.githubusercontent.com/98923767/155232110-bc2bf331-c4be-4cd3-a1d7-85167836ca38.png)
 ## 使ったライブラリ
 - jetpack
   - WorkManage
