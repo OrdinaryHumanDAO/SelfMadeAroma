@@ -44,4 +44,4 @@ SelfMadeAromaアプリは自分が作ったアロマをスマホ内に保存で�
 - ログイン機能を付け、自分が作ったアロマをみんなに公開できるようにしたい。(Twitterみたいな感じで)
 
 ## google play storeでインストール
-現在審査中なのでインストールできません
+<https://play.google.com/store/apps/details?id=com.ordinaryhuman.selfmadearoma>
